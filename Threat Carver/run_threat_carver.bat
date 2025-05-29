@@ -1,0 +1,9 @@
+@echo off
+echo Starting Threat Carver...
+echo.
+echo Installing/updating dependencies...
+pip install -r requirements.txt
+echo.
+echo Launching Threat Carver application...
+streamlit run app.py
+pause
